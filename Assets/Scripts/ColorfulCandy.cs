@@ -32,7 +32,6 @@ public class ColorfulCandy : MonoBehaviour
         _material.color = _colorsProvider.GetRandom();
     }
     
-    
     private void ChangePosition()
     {
         gameObject.transform.position = _positionGenerator.GetRandomPosition();
